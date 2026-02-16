@@ -43,7 +43,7 @@ curl http://localhost:8000/
 Analyze a financial document (synchronous)
 ```bash
 curl -X POST "http://localhost:8000/analyze" \
-  -F "file=@data/TSLA-Q2-2025-Update.pdf" \
+  -F "file=@data/financial_document.pdf" \
   -F "query=What is Tesla's Q2 2025 revenue?"
 ```
 
