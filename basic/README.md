@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ### 2. Configure API Key
 Update `.env` file:
 ```bash
-GEMINI_API_KEY=your_actual_api_key_here
+GROQ_API_KEY=your_actual_api_key_here
 ```
 
 ### 3. Run Server
